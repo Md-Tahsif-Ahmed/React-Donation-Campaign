@@ -1,17 +1,31 @@
 import { NavLink } from "react-router-dom";
-import { Link } from "react-router-dom";
-
+ 
 const Header = () => {
   const links = (
     <>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/donation">Donation</NavLink>
-      <NavLink to="/statistics">Statistics</NavLink>
+      <NavLink to="/" style={({ isActive }) => {
+    return {
+      textDecoration: isActive ? "underline" : "",
+      color: isActive ? "red" : "",
+    };
+  }}>Home</NavLink>
+      <NavLink to="/donation" style={({ isActive }) => {
+    return {
+      textDecoration: isActive ? "underline" : "",
+      color: isActive ? "red" : "",
+    };
+  }}>Donation</NavLink>
+      <NavLink to="/statistics" style={({ isActive }) => {
+    return {
+      textDecoration: isActive ? "underline" : "",
+      color: isActive ? "red" : "",
+    };
+  }}>Statistics</NavLink>
     </>
   );
 
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto my-8">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
@@ -39,10 +53,10 @@ const Header = () => {
             </ul>
           </div>
           
-        <a className="normal-case text-xl"><img src="https://i.ibb.co/2ypgZmH/Logo.png" alt="" /></a>
+        <a className="normal-case w-40"><img src="https://i.ibb.co/2ypgZmH/Logo.png" alt="" /></a>
         </div>
         <div className="navbar-end hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 space-x-6 ">{links}</ul>
+          <ul className="menu menu-horizontal px-1 space-x-6 font-medium text-center">{links}</ul>
         </div>
       </div>
     </div>
