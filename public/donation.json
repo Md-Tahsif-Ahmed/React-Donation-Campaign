@@ -1,0 +1,123 @@
+[
+    {
+      "Picture": "https://i.ibb.co/2ZSxDGz/Health.png",
+      "Title": "Clean Water for Children",
+      "Category": "Health",
+      "Category_bg": "rgba(0, 82, 255, 0.20)",
+      "Card_bg": "rgba(0, 82, 255, 0.15)",
+      "Text_button_bg": "#0052FF",
+      "Description": "There are many things that can be done to ensure that all children have access to clean water. This initiative aims to provide clean and safe drinking water to children in need.",
+      "Price": 290
+    },
+    {
+      "Picture": "https://i.ibb.co/qm51n6Q/Clothing.png",
+      "Title": "Used Clothing Drive",
+      "Category": "Clothing",
+      "Category_bg": "rgba(121, 194, 63, 0.20)",
+      "Card_bg": "rgba(121, 194, 63, 0.15)",
+      "Text_button_bg": "#79C23F",
+      "Description": "Join our clothing drive to provide gently used clothing to those in need. Your donations will help keep people warm and clothed during the cold months.",
+      "Price": 290
+    },
+    {
+      "Picture": "https://i.ibb.co/MPMLNcQ/Education.png",
+      "Title": "Good Education",
+      "Category": "Education",
+      "Category_bg": "rgba(255, 68, 74, 0.20)",
+      "Card_bg": "rgba(255, 68, 74, 0.15)",
+      "Text_button_bg": "#FF444A",
+      "Description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "Price": 290
+    },
+    {
+      "Picture": "https://i.ibb.co/z7D66G8/Food.png",
+      "Title": "Better Food for Everyone",
+      "Category": "Food",
+      "Category_bg": "rgba(248, 113, 71, 0.20)",
+      "Card_bg": "rgba(248, 113, 71, 0.15)",
+      "Text_button_bg": "#F87147",
+      "Description": "Access to better food is essential for everyone's well-being. This project aims to provide nutritious and affordable food options to communities, ensuring that everyone has access to quality meals.",
+      "Price": 290
+    },
+    {
+      "Picture": "https://i.ibb.co/2ZSxDGz/Health.png",
+      "Title": "Clean Water for Children",
+      "Category": "Health",
+      "Category_bg": "rgba(0, 82, 255, 0.20)",
+      "Card_bg": "rgba(0, 82, 255, 0.15)",
+      "Text_button_bg": "#0052FF",
+      "Description": "There are many things that can be done to ensure that all children have access to clean water. This initiative aims to provide clean and safe drinking water to children in need.",
+      "Price": 290
+    },
+    {
+      "Picture": "https://i.ibb.co/qm51n6Q/Clothing.png",
+      "Title": "Used Clothing Drive",
+      "Category": "Clothing",
+      "Category_bg": "rgba(121, 194, 63, 0.20)",
+      "Card_bg": "rgba(121, 194, 63, 0.15)",
+      "Text_button_bg": "#79C23F",
+      "Description": "Join our clothing drive to provide gently used clothing to those in need. Your donations will help keep people warm and clothed during the cold months.",
+      "Price": 290
+    },
+    {
+      "Picture": "https://i.ibb.co/MPMLNcQ/Education.png",
+      "Title": "Good Education",
+      "Category": "Education",
+      "Category_bg": "rgba(255, 68, 74, 0.20)",
+      "Card_bg": "rgba(255, 68, 74, 0.15)",
+      "Text_button_bg": "#FF444A",
+      "Description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "Price": 290
+    },
+    {
+      "Picture": "https://i.ibb.co/z7D66G8/Food.png",
+      "Title": "Better Food for Everyone",
+      "Category": "Food",
+      "Category_bg": "rgba(248, 113, 71, 0.20)",
+      "Card_bg": "rgba(248, 113, 71, 0.15)",
+      "Text_button_bg": "#F87147",
+      "Description": "Access to better food is essential for everyone's well-being. This project aims to provide nutritious and affordable food options to communities, ensuring that everyone has access to quality meals.",
+      "Price": 290
+    },
+    {
+      "Picture": "https://i.ibb.co/2ZSxDGz/Health.png",
+      "Title": "Clean Water for Children",
+      "Category": "Health",
+      "Category_bg": "rgba(0, 82, 255, 0.20)",
+      "Card_bg": "rgba(0, 82, 255, 0.15)",
+      "Text_button_bg": "#0052FF",
+      "Description": "There are many things that can be done to ensure that all children have access to clean water. This initiative aims to provide clean and safe drinking water to children in need.",
+      "Price": 290
+    },
+    {
+      "Picture": "https://i.ibb.co/qm51n6Q/Clothing.png",
+      "Title": "Used Clothing Drive",
+      "Category": "Clothing",
+      "Category_bg": "rgba(121, 194, 63, 0.20)",
+      "Card_bg": "rgba(121, 194, 63, 0.15)",
+      "Text_button_bg": "#79C23F",
+      "Description": "Join our clothing drive to provide gently used clothing to those in need. Your donations will help keep people warm and clothed during the cold months.",
+      "Price": 290
+    },
+    {
+      "Picture": "https://i.ibb.co/MPMLNcQ/Education.png",
+      "Title": "Good Education",
+      "Category": "Education",
+      "Category_bg": "rgba(255, 68, 74, 0.20)",
+      "Card_bg": "rgba(255, 68, 74, 0.15)",
+      "Text_button_bg": "#FF444A",
+      "Description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "Price": 290
+    },
+    {
+      "Picture": "https://i.ibb.co/z7D66G8/Food.png",
+      "Title": "Better Food for Everyone",
+      "Category": "Food",
+      "Category_bg": "rgba(248, 113, 71, 0.20)",
+      "Card_bg": "rgba(248, 113, 71, 0.15)",
+      "Text_button_bg": "#F87147",
+      "Description": "Access to better food is essential for everyone's well-being. This project aims to provide nutritious and affordable food options to communities, ensuring that everyone has access to quality meals.",
+      "Price": 290
+    }
+  ]
+  
