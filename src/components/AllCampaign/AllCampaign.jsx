@@ -1,5 +1,4 @@
-import PropTypes from 'prop-types';
-import { useLoaderData } from 'react-router-dom';
+ import { useLoaderData } from 'react-router-dom';
 import Campaign from '../Campaign/Campaign';
 
 const AllCampaign = () => {
@@ -14,8 +13,6 @@ const AllCampaign = () => {
     );
 };
 
-AllCampaign.propTypes = {
-    
-};
+ 
 
 export default AllCampaign;
