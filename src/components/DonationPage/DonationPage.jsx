@@ -34,7 +34,7 @@ const DonationPage = ({ don }) => {
             <span><FaDollarSign /></span>{Price}
           </h3>
           <div className="card-actions py-0">
-            <button className="btn w-52 text-white font-bold py-1" style={buttonStyle}>Listen</button>
+            <button className="btn w-52 text-white font-bold py-1" style={buttonStyle}>View Details</button>
           </div>
         </div>
       </div>
@@ -43,15 +43,7 @@ const DonationPage = ({ don }) => {
 };
 
 DonationPage.propTypes = {
-  don: PropTypes.shape({
-    Picture: PropTypes.string.isRequired,
-    Title: PropTypes.string.isRequired,
-    Category: PropTypes.string.isRequired,
-    Category_bg: PropTypes.string.isRequired,
-    Card_bg: PropTypes.string.isRequired,
-    Text_button_bg: PropTypes.string.isRequired,
-    Price: PropTypes.number.isRequired,
-  }).isRequired,
+  don: PropTypes.any
 };
 
 export default DonationPage;

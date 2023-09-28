@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'custom-background': 'url("https://i.ibb.co/qm51n6Q/Clothing.png")',
+        'custom-background': 'url("https://i.ibb.co/ZLHLkNV/cover.jpg")',
       },
     },
   },

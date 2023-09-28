@@ -1,12 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'; // Corrected import paths
+import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider, useLoaderData } from 'react-router-dom'; 
 import './index.css';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Root from './components/Root/Root';
 import HomePage from './components/HomePage/HomePage';
 import Donation from './components/Donation/Donation';
-import EducationDetails from './components/EducationDetails/EducationDetails';
+import Details from './components/Details/Details';
+import Statistics from './components/Statistics/Statistics';
 
 const router = createBrowserRouter([
   {
@@ -25,10 +26,16 @@ const router = createBrowserRouter([
         loader: () => fetch('../donation.json'),
       },
       {
-        path: '/education-details',
-        element: <EducationDetails></EducationDetails>,
+        path: '/statistics',
+        element:  <Statistics></Statistics>,
         
-      }
+      },
+      {
+        path: '/campaign/:id',
+        // loader: ({ params }) => fetch(`donation.json/compaign/${params.campaignId}`),
+        loader: ({params}) =>  fetch(`donation.json/${params.id}`),
+        element: <Details></Details>,
+      },
     ]
   },
 ]);
