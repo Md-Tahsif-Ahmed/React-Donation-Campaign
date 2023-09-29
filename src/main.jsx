@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider, useLoaderData } from 'react-router-dom'; 
+import { createBrowserRouter, RouterProvider} from 'react-router-dom'; 
 import './index.css';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Root from './components/Root/Root';
@@ -32,10 +32,20 @@ const router = createBrowserRouter([
       },
       {
         path: '/campaign/:id',
-        // loader: ({ params }) => fetch(`donation.json/compaign/${params.campaignId}`),
-        loader: ({params}) =>  fetch(`donation.json/${params.id}`),
         element: <Details></Details>,
+        loader: () => fetch('../donation.json'),
       },
+      // {
+      //   path: '/campaign/:id',
+      //   // loader: ({ params }) => fetch(`donation.json/compaign/${params.campaignId}`),
+      //   loader: ({params}) =>  fetch(`donation.json/${params.id}`),
+      //   element: <Details></Details>,
+      // },
+   
+
+ 
+
+
     ]
   },
 ]);
