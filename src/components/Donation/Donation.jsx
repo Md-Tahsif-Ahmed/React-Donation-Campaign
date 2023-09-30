@@ -7,7 +7,7 @@ const Donation = () => {
     
     return (
         <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-2 gap-4">
+            <div className=" px-6 lg:px-0 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-4">
              {
                 donations.slice(0, dataLength).map((don,idx)=> <DonationPage key={idx} don={don}></DonationPage>)
              }

@@ -34,8 +34,8 @@ const bgStyle = {
                  <button onClick={handleDonate} style={bgStyle}  className="btn w-36 normal-case text-center flex items-center justify-center text-white font-semibold rounded border-0" >Donate <span className="flex"><FaDollarSign />{Price}</span></button>
            </div>
         </div>
-        <h1 className="text-4xl font-bold text-black my-8">{Title}</h1>
-        <p className="text-gray-500">{Description}</p>
+        <h1 className=" px-6 lg:px-0 text-2xl lg:text-4xl font-bold text-black my-8">{Title}</h1>
+        <p className="px-6 lg:px-0 text-gray-500">{Description}</p>
         
         <ToastContainer />    
     </div>
