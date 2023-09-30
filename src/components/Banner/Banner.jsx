@@ -22,7 +22,7 @@ const Banner = () => {
                 <div className="text-center my-8">
                     <form action="">
                         <input className="box-border  border-0 focus:outline-none rounded-l-lg w-96 h-11 border-gray-300 p-2" type="text" placeholder="Search Here..." />
-                        <button className="p-2 bg-red-500 text-white font-bold normal-case border-0 rounded-r-lg">Submit</button>
+                        <button className="p-2 bg-red-500 text-white font-bold normal-case border-0 rounded-r-lg">Search</button>
                     </form>
                 </div>
             </div>
