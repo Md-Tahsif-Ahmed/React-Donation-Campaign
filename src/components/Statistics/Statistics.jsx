@@ -5,7 +5,7 @@ import { useLoaderData } from "react-router-dom";
 
 const options = {
   legend: { position: "bottom" },
-  colors: ["green", "red", "blue"],
+  colors: ["#00C49F", "#FF444A", "blue"],
 };
 
 const Statistics = () => {
@@ -13,22 +13,20 @@ const Statistics = () => {
 
   useEffect(() => {
     const storedDonationId = getStoredDonation();
-
-    // Check if donations and storedDonationId exist before filtering
-    if (donations && storedDonationId) {
+     if (donations && storedDonationId) {
       const donationsApplied = donations.filter((donation) =>
         storedDonationId.includes(donation.id)
       );
       console.log(donations, storedDonationId, donationsApplied);
     }
-  }, []); 
+  }); 
 
- 
   const storedDonationId = getStoredDonation(); 
   const data = [
     ["Donation", "Number"],
+    ["Your Donation", storedDonationId.length],
     ["Total Donation", (donations.length-storedDonationId.length)],
-    ["Donation", storedDonationId.length],
+    
   ];
 
   return (
