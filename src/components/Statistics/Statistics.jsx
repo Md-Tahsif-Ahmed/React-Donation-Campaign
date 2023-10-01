@@ -4,8 +4,9 @@ import { getStoredDonation } from "../../utility/localstorage";
 import { useLoaderData } from "react-router-dom";
 
 const options = {
-  legend: { position: "bottom" },
   colors: ["#00C49F", "#FF444A", "blue"],
+  legend: { position: "bottom" },
+  
 };
 
 const Statistics = () => {

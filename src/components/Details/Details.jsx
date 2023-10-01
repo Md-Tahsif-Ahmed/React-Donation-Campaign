@@ -20,7 +20,7 @@ const bgStyle = {
  
     const handleDonate = ()=> {
         saveDonation(idInt);
-        toast('Applied Successfully');
+        toast('Donated Successfully');
     }
 
 
